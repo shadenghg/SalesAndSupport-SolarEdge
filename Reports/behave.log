@@ -1,0 +1,65 @@
+2023-03-29 00:42:32,744 - root - INFO - Opening web browser and navigating to https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/
+2023-03-29 00:42:36,154 - root - INFO - Inserted username: QA.001
+2023-03-29 00:42:36,228 - root - INFO - Inserted password: ********
+2023-03-29 00:42:36,259 - root - INFO - Selected English language option
+2023-03-29 00:42:44,209 - root - INFO - Clicked on Login button using ID locator
+2023-03-29 00:42:53,703 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 00:42:53,767 - root - INFO - Sales button is visible
+2023-03-29 00:42:58,867 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 00:43:03,923 - root - INFO - Clicked on Service Request button using CSS Selector locator
+2023-03-29 00:43:09,019 - root - INFO - Clicked on Create Service Request button using XPath locator
+2023-03-29 00:43:12,352 - root - INFO - Inserted title: Sales and Support 2023
+2023-03-29 00:43:17,427 - root - INFO - Clicked on Save and Close button using XPath locator
+2023-03-29 00:43:22,486 - root - INFO - Clicked on list arrow button using XPath locator
+2023-03-29 00:43:27,593 - root - INFO - Selected Open Service Requests Created By Me option
+2023-03-29 00:43:28,429 - root - INFO - Service Request has been created successfully
+2023-03-29 00:43:36,729 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 00:43:36,762 - root - INFO - Sales button is visible
+2023-03-29 00:43:41,826 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 00:43:46,941 - root - INFO - Clicked on Create Appointment button using XPath locator
+2023-03-29 00:43:49,101 - root - INFO - Inserted subject: Sales and Support 2023
+2023-03-29 00:43:54,190 - root - INFO - Clicked on Save and close button using XPath locator
+2023-03-29 00:43:54,931 - root - INFO - Error message is displayed to the user
+2023-03-29 00:57:30,123 - root - INFO - Opening web browser and navigating to https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/
+2023-03-29 00:57:34,080 - root - INFO - Inserted username: QA.001
+2023-03-29 00:57:34,136 - root - INFO - Inserted password: ********
+2023-03-29 00:57:34,166 - root - INFO - Selected English language option
+2023-03-29 00:57:42,144 - root - INFO - Clicked on Login button using ID locator
+2023-03-29 00:57:53,130 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 00:57:53,161 - root - INFO - Sales button is visible
+2023-03-29 00:57:58,266 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 00:58:03,320 - root - INFO - Clicked on Service Request button using CSS Selector locator
+2023-03-29 00:58:08,401 - root - INFO - Clicked on Create Service Request button using XPath locator
+2023-03-29 00:58:11,682 - root - INFO - Inserted title: Sales and Support 2023
+2023-03-29 00:58:16,764 - root - INFO - Clicked on Save and Close button using XPath locator
+2023-03-29 00:58:21,847 - root - INFO - Clicked on list arrow button using XPath locator
+2023-03-29 00:58:26,907 - root - INFO - Selected Open Service Requests Created By Me option
+2023-03-29 00:58:27,670 - root - INFO - Service Request has been created successfully
+2023-03-29 00:58:35,626 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 00:58:35,652 - root - INFO - Sales button is visible
+2023-03-29 00:58:40,716 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 00:58:45,794 - root - INFO - Clicked on Create Appointment button using XPath locator
+2023-03-29 00:58:51,312 - root - INFO - Inserted subject: Sales and Support 2023
+2023-03-29 00:58:56,380 - root - INFO - Clicked on Save and close button using XPath locator
+2023-03-29 01:00:20,306 - root - INFO - Opening web browser and navigating to https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/
+2023-03-29 01:00:24,591 - root - INFO - Inserted username: QA.001
+2023-03-29 01:00:24,642 - root - INFO - Inserted password: ********
+2023-03-29 01:00:24,674 - root - INFO - Selected English language option
+2023-03-29 01:00:32,845 - root - INFO - Clicked on Login button using ID locator
+2023-03-29 01:00:41,963 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 01:00:42,031 - root - INFO - Sales button is visible
+2023-03-29 01:00:47,152 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 01:00:52,213 - root - INFO - Clicked on Service Request button using CSS Selector locator
+2023-03-29 01:00:57,411 - root - INFO - Clicked on Create Service Request button using XPath locator
+2023-03-29 01:01:01,326 - root - INFO - Inserted title: Sales and Support 2023
+2023-03-29 01:01:06,377 - root - INFO - Clicked on Save and Close button using XPath locator
+2023-03-29 01:01:11,450 - root - INFO - Clicked on list arrow button using XPath locator
+2023-03-29 01:01:16,531 - root - INFO - Selected Open Service Requests Created By Me option
+2023-03-29 01:01:17,398 - root - INFO - Service Request has been created successfully
+2023-03-29 01:01:25,445 - root - INFO - Clicked on Home button using XPath locator
+2023-03-29 01:01:25,476 - root - INFO - Sales button is visible
+2023-03-29 01:01:30,559 - root - INFO - Clicked on Sales button using ID locator
+2023-03-29 01:01:35,606 - root - INFO - Clicked on Create Appointment button using XPath locator
+2023-03-29 01:01:40,333 - root - INFO - Inserted subject: Sales and Support 2023
+2023-03-29 01:01:45,412 - root - INFO - Clicked on Save and close button using XPath locator
+2023-03-29 01:01:49,484 - root - INFO - Error message is displayed to the user

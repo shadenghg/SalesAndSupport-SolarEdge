@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+        tr.feature {
+            background: #e1e3e1;
+        }
+        td.scenario_td {
+            width:50%;
+        }
+        
+        td.status {
+            width: 10%;
+            }
+        
+        td.err_sc_name {
+            max-width: 100%;
+        }
+        td.feature_td {
+            min-width:50;
+        }
+        table, th, td {
+            border: 1px solid #1a7ade;
+        }
+
+    </style>
+
+
+    <title>My Test Report</title>
+</head>
+<body>
+<div id="test_summary">
+         <h1> Scenario Pass Rate: 100.0% (2/2)</h1>
+<table class="table-summary">
+    <thead><th></th><th>PASSED</th><th>FAILED</th><th>PASS RATE</th></thead>
+    <tbody>
+        <tr>
+            <th>Features</th><td style="color:green"><center>1</center></td>
+            <td style="color:red"><center>0</center></td>
+            <td><center>100.0 %</center></td>
+        </tr>
+        <tr>
+            <th>Scenario</th><td style="color:green"><center>2</center></td>
+            <td style="color:red"><center>0</center></td>
+            <td><center>100.0 %</center></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<br>
+<table>
+    <thead></thead>
+    <tbody>
+    <tr class="feature">
+                            <td class="feature_td">SolarEdge Sales and support staff test cases</td>
+                            <td class="status" style="background: #a5f1a5;">passed</td>
+                        </tr><tr class="scenario" scenario_name="Create sales request" onClick="na">    
+                                <td class="scenario_td">Create sales request</td>
+                                <td class="status" style="color: #1c881c; font-weight: none">PASSED</td>
+                            </tr><tr class="scenario" scenario_name="Permission to create an appointment" onClick="na">    
+                                <td class="scenario_td">Permission to create an appointment</td>
+                                <td class="status" style="color: #1c881c; font-weight: none">PASSED</td>
+                            </tr>
+    </tbody>
+
+</table>
+
+    <script>
+        function justalert(sc_name){
+            var locator = 'tr.error_row[scenario_name="' + sc_name + '"]'
+            var errRow = document.querySelector(locator)
+            
+            if ( errRow.style.display == "block") {
+                errRow.style.display = "none";
+            } else {
+                errRow.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>

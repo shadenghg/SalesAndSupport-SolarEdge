@@ -1,0 +1,445 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "solar_edge.feature:2",
+      "name": "Create sales request",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "solar_edge.feature:3",
+          "match": {
+            "arguments": [
+              {
+                "name": "url",
+                "value": "https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/"
+              }
+            ],
+            "location": "steps/steps.py:8"
+          },
+          "name": "Navigate to the website \"https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/\"",
+          "result": {
+            "duration": 3.3716557025909424,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "solar_edge.feature:4",
+          "match": {
+            "arguments": [
+              {
+                "name": "field",
+                "value": "Username"
+              },
+              {
+                "name": "value",
+                "value": "QA.001"
+              }
+            ],
+            "location": "steps/steps.py:14"
+          },
+          "name": "Insert in \"Username\": \"QA.001\"",
+          "result": {
+            "duration": 0.038849830627441406,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "field",
+                "value": "Password"
+              },
+              {
+                "name": "value",
+                "value": "SeFusionTestOC00#@!@&"
+              }
+            ],
+            "location": "steps/steps.py:14"
+          },
+          "name": "Insert in \"Password\": \"SeFusionTestOC00#@!@&\"",
+          "result": {
+            "duration": 0.07416105270385742,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "optn",
+                "value": "English language"
+              }
+            ],
+            "location": "steps/steps.py:50"
+          },
+          "name": "Choose \"English language\" option",
+          "result": {
+            "duration": 0.030711650848388672,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Login"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Login\" button",
+          "result": {
+            "duration": 7.949044227600098,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Home"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Home\" button",
+          "result": {
+            "duration": 9.493497133255005,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "solar_edge.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "steps/steps.py:62"
+          },
+          "name": "\"Sales\" button is visible",
+          "result": {
+            "duration": 0.06557559967041016,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "solar_edge.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Sales"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Sales\" button",
+          "result": {
+            "duration": 5.099581241607666,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Service Request"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Service Request\" button",
+          "result": {
+            "duration": 5.056323766708374,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:12",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Create Service Request"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Create Service Request\" button",
+          "result": {
+            "duration": 5.096832513809204,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:13",
+          "match": {
+            "arguments": [
+              {
+                "name": "field",
+                "value": "Title"
+              },
+              {
+                "name": "value",
+                "value": "Sales and Support 2023"
+              }
+            ],
+            "location": "steps/steps.py:14"
+          },
+          "name": "Insert in \"Title\": \"Sales and Support 2023\"",
+          "result": {
+            "duration": 3.3306357860565186,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:14",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Save and Close"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Save and Close\" button",
+          "result": {
+            "duration": 5.075013637542725,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "solar_edge.feature:15",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "list arrow"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"list arrow\" button",
+          "result": {
+            "duration": 5.059090614318848,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:16",
+          "match": {
+            "arguments": [
+              {
+                "name": "optn",
+                "value": "Open Service Requests Created By Me"
+              }
+            ],
+            "location": "steps/steps.py:50"
+          },
+          "name": "Choose \"Open Service Requests Created By Me\" option",
+          "result": {
+            "duration": 5.105878591537476,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "steps/steps.py:70"
+          },
+          "name": "Verify that the Service Request has been created",
+          "result": {
+            "duration": 0.8362092971801758,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "solar_edge.feature:19",
+      "name": "Permission to create an appointment",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:20",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Home"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Home\" button",
+          "result": {
+            "duration": 8.297980546951294,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "solar_edge.feature:21",
+          "match": {
+            "arguments": [],
+            "location": "steps/steps.py:62"
+          },
+          "name": "\"Sales\" button is visible",
+          "result": {
+            "duration": 0.03297138214111328,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "solar_edge.feature:22",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Sales"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Sales\" button",
+          "result": {
+            "duration": 5.063915252685547,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:23",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Create Appointment"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Create Appointment\" button",
+          "result": {
+            "duration": 5.113421440124512,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:24",
+          "match": {
+            "arguments": [
+              {
+                "name": "field",
+                "value": "Subject"
+              },
+              {
+                "name": "value",
+                "value": "Sales and Support 2023"
+              }
+            ],
+            "location": "steps/steps.py:14"
+          },
+          "name": "Insert in \"Subject\": \"Sales and Support 2023\"",
+          "result": {
+            "duration": 2.1603806018829346,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:25",
+          "match": {
+            "arguments": [
+              {
+                "name": "buttons",
+                "value": "Save and close"
+              }
+            ],
+            "location": "steps/steps.py:32"
+          },
+          "name": "Click on \"Save and close\" button",
+          "result": {
+            "duration": 5.08912205696106,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "solar_edge.feature:26",
+          "match": {
+            "arguments": [],
+            "location": "steps/steps.py:76"
+          },
+          "name": "A message is displayed to the user",
+          "result": {
+            "duration": 0.739865779876709,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "solar_edge.feature:1",
+  "name": "SolarEdge Sales and support staff test cases",
+  "status": "passed",
+  "tags": []
+}
+]

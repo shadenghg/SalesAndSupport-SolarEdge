@@ -1,0 +1,39 @@
+<testsuite name="solar_edge.SolarEdge Sales and support staff test cases" tests="2" errors="0" failures="0" skipped="0" time="87.890688" timestamp="2023-03-29T00:34:28.004569" hostname="ShadenPC"><testcase classname="solar_edge.SolarEdge Sales and support staff test cases" name="Create sales request" status="passed" time="60.247132"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Create sales request
+    Given Navigate to the website "https://fa-evzi-test-saasfaprod1.fa.ocs.oraclecloud.com/" ... passed in 3.861s
+    Then Insert in "Username": "QA.001" ... passed in 0.068s
+    And Insert in "Password": "SeFusionTestOC00#@!@&" ... passed in 0.579s
+    And Choose "English language" option ... passed in 0.034s
+    And Click on "Login" button ... passed in 9.218s
+    And Click on "Home" button ... passed in 10.431s
+    When "Sales" button is visible ... passed in 0.055s
+    Then Click on "Sales" button ... passed in 5.106s
+    And Click on "Service Request" button ... passed in 5.051s
+    And Click on "Create Service Request" button ... passed in 5.448s
+    And Insert in "Title": "Sales and Support 2023" ... passed in 4.278s
+    And Click on "Save and Close" button ... passed in 5.131s
+    Then Click on "list arrow" button ... passed in 5.068s
+    And Choose "Open Service Requests Created By Me" option ... passed in 5.125s
+    And Verify that the Service Request has been created ... passed in 0.794s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="solar_edge.SolarEdge Sales and support staff test cases" name="Permission to create an appointment" status="passed" time="27.643556"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Permission to create an appointment
+    And Click on "Home" button ... passed in 8.684s
+    When "Sales" button is visible ... passed in 0.129s
+    Then Click on "Sales" button ... passed in 5.049s
+    And Click on "Create Appointment" button ... passed in 5.100s
+    And Insert in "Subject": "Sales and Support 2023" ... passed in 2.724s
+    And Click on "Save and close" button ... passed in 5.103s
+    And A message is displayed to the user ... passed in 0.857s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

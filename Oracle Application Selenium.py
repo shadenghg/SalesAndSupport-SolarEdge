@@ -34,7 +34,7 @@ time.sleep(5)
 while not driver.find_element(By.CSS_SELECTOR, "#groupNode_sales").is_displayed():
     driver.find_element(By.ID, "clusters-right-nav").click()
     time.sleep(2)
-driver.find_element(By.ID, "groupNode_sales").click()
+driver.find_element(By.CSS_SELECTOR, "#groupNode_sales").click()
 
 driver.find_element(By.CSS_SELECTOR, "#itemNode_sales_service_requests").click()
 time.sleep(5)
